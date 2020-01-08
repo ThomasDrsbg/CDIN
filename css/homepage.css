@@ -1,0 +1,199 @@
+body
+{
+  font:Helvetica;
+  background-color : #2E2827;
+  background-repeat:repeat;
+  background-position: center;
+  font-size:18px;
+  margin-bottom:0;
+}
+
+a:hover
+{
+  transform: scale(1.03);
+  transition-duration: 0.5s;
+}
+
+.navbar-left img:hover
+{
+  transform: scale(1.03);
+  transition-duration: 0.5s;
+}
+
+.navbar-expand-lg
+{
+   background-color : #ffa500;
+   font-size:18px;
+}
+
+#blanc:hover
+{
+  color:white;
+}
+
+#navbarDropdown:hover
+{
+  color:white;
+}
+
+#navbarDropdown
+{
+  color:black;
+}
+
+.blur img
+{
+  border:2px solid #000000;
+  -webkit-filter: blur(4px);
+  transition-duration: 1s;
+}
+
+.blur img:hover
+{
+  transition-duration: 1s;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  content: "TEXTE";
+}
+
+.titre
+{
+  background-color:#ffa500;
+  font-size : 50px;
+  height:75px;
+  font-weight: bold;
+  text-align: center;
+  color:white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contenu
+{
+  margin:25px;
+  text-align: justify;
+}
+
+.petittitre
+{
+    color: #FF8D1C;
+    align: center;
+    display: inline-block;
+}
+
+.soustitre
+{
+  color:#FF8D1C;
+}
+
+.soustitreblanc
+{
+  color:white;
+}
+
+hr
+{
+  background-color : #ffa500;
+}
+
+.centrer
+{
+  text-align:center;
+}
+
+
+td
+{
+ padding-left: 25px;
+}
+
+marquee
+{
+  color:darkorange;
+}
+
+.italic
+{
+  font-style:italic;
+  color:white;
+}
+
+p
+{
+  color:white;
+}
+
+.btn:hover
+{
+  background-color:black;
+  border-color:black;
+  color:white;
+}
+
+.btn
+{
+  background-color:;
+  border-color:black;
+  color:black;
+}
+
+.liensiut
+{
+  list-style-type:none;
+}
+
+.changelien
+{
+    color:blue;
+    text-decoration: underline;
+}
+
+.changelien:hover
+{
+  color:white;
+  transform: scale(1.9);
+  transition-duration: 0.5s;
+
+}
+
+footer
+{
+
+  background-color:#ffa500;
+  color:white ;
+  font-size:18px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:0px;
+}
+
+footer td
+{
+  border-left:solid 1px black;
+  border-right:solid 1px black;
+  padding:15px;
+}
+
+footer a
+{
+  color:black;
+}
+
+footer a:hover
+{
+  color:white;
+  transform: scale(1.9);
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+#map
+{
+    border:solid 2px red;
+    width:500px;
+    height:450px;
+    margin-bottom:20px;
+
+}
